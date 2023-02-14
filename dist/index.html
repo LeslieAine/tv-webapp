@@ -1,69 +1,41 @@
-<head><script defer src="/runtime.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'E:\Microverse\module 2\week 5\tv-webapp\src\index.html' in 'E:\Microverse\module 2\week 5\tv  -webapp'
-  ModuleNotFoundError: Module not found: Error: Can't resolve 'E:\Microverse\module 2\week 5\tv-webapp\src\index.html' in 'E:\Microver  se\module 2\week 5\tv-webapp'
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\Compilation.js:2016:28
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\NormalModuleFactory.js:798:13
-      at eval (eval at create (E:\Microverse\module 2\week 5\tv-webapp\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>  :10:1)
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\NormalModuleFactory.js:270:22
-      at eval (eval at create (E:\Microverse\module 2\week 5\tv-webapp\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>  :9:1)
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\NormalModuleFactory.js:434:22
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\NormalModuleFactory.js:120:11
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\NormalModuleFactory.js:670:25
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\NormalModuleFactory.js:855:8
-      at E:\Microverse\module 2\week 5\tv-webapp\node_modules\webpack\lib\NormalModuleFactory.js:975:5
-  
-  - Compilation.js:2016 
-    [tv-webapp]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [tv-webapp]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [tv-webapp]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [tv-webapp]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:120 
-    [tv-webapp]/[webpack]/lib/NormalModuleFactory.js:120:11
-  
-  - NormalModuleFactory.js:670 
-    [tv-webapp]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [tv-webapp]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [tv-webapp]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - child-compiler.js:169 
-    [tv-webapp]/[html-webpack-plugin]/lib/child-compiler.js:169:18
-  
-  - Compiler.js:551 finalCallback
-    [tv-webapp]/[webpack]/lib/Compiler.js:551:5
-  
-  - Compiler.js:577 
-    [tv-webapp]/[webpack]/lib/Compiler.js:577:11
-  
-  - Compiler.js:1196 
-    [tv-webapp]/[webpack]/lib/Compiler.js:1196:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [tv-webapp]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1192 
-    [tv-webapp]/[webpack]/lib/Compiler.js:1192:33
-  
-  - Compilation.js:2787 finalCallback
-    [tv-webapp]/[webpack]/lib/Compilation.js:2787:11
-  
-  - Compilation.js:3092 
-    [tv-webapp]/[webpack]/lib/Compilation.js:3092:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>capstone project module 2</title>
+  <script defer src="/runtime.js"></script><script defer src="/main.js"></script></head>
+  <body>
+    <header>
+      <nav class="nav">
+        <i class="fa fa-film" style="font-size: 36px"></i>
+        <ul>
+          <li>
+            <a href="#">Home <i class="fa-solid fa-clapperboard"></i></a>
+          </li>
+          <li>
+            <a href="#">Comment <i class="fa-solid fa-comment"></i></a>
+          </li>
+          <li>
+            <a href="#">Like <i class="fa-solid fa-heart"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main">
+      <ul class="movies" id="movies"></ul>
+    </section>
+    <footer>
+      <i class="fa fa-film" style="font-size: 36px"></i>
+      <p>Made by Leslie Aine & Tayyab Irfan</p>
+      <span></span>
+    </footer>
+  </body>
+</html>
