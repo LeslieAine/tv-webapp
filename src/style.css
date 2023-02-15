@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
 
 * {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .flex {
@@ -24,13 +24,13 @@ footer {
   font-style: italic;
 }
 
-li>a {
+li > a {
   text-decoration: none;
   color: black;
   list-style: none;
 }
 
-li>a:hover {
+li > a:hover {
   font-size: large;
 }
 
