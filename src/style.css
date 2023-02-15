@@ -4,7 +4,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.flex {
+.likes-comments {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,4 +53,18 @@ ul {
 
 .movies li .flex {
   margin: 15px;
+}
+
+.likes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like {
+  padding-right: 4px;
+}
+
+.hidden {
+  display: none;
 }
