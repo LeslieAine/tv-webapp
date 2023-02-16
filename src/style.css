@@ -68,3 +68,12 @@ ul {
 .hidden {
   display: none;
 }
+
+.main-heading {
+  margin: 20px 0 0 20px;
+}
+
+.main-movies-counter {
+  font-weight: 400;
+  font-size: 1rem;
+}
