@@ -5,10 +5,7 @@ const addLikes = async () => {
   const likesContainer = document.querySelectorAll('.likes');
   likesContainer.forEach((like) => {
     const id = like.parentElement.parentElement.parentElement.parentElement.firstElementChild.textContent;
-    //console.log(id);
-    // const id = document.querySelector('.movie-id');
     const movieLikes = likes.filter((item) => parseInt(item.item_id, 10) === parseInt(id, 10));
-    //console.log(movieLikes);
     like.textContent = movieLikes.length === 0 ? 0 : movieLikes[0].likes;
   });
 };

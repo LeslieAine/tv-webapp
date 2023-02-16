@@ -1,22 +1,23 @@
 import { addLike } from './involvementAPI/getLikes.js';
 import addLikes from './involvementAPI/addLikes.js';
+import popup from './popup.js';
+import getMovies from './getMovies.js';
+import moviesCounter from './counters/moviesCounter.js';
 
-const movieSection = document.querySelector('.main');
+const pop = document.querySelector('.pop');
+const body = document.querySelector('body');
 
 document.addEventListener('DOMContentLoaded', async () => {
     addLikes();
+    const movies = await getMovies();
+    document.querySelector('.main-movies-counter').textContent = `(${moviesCounter()})`;
 });
 
-// movieSection.addEventListener('click', async (e) => {
-//     if (e.target.classList.contains('empty')) {
-//         alert(e.target)
-//         const movieId = e.target.closest('.movies').querySelector('.movie-id').textContent;
-//         document.querySelector('.empty').classList.add('hidden');
-//         document.querySelector('.filled').classList.remove('hidden');
-//         await addLike(movieId);
-//         addLikes();
-//     }
-// });
+export const addCommentButtonsLister = async () => {
+    const movies = await getMovies();
+    const btns = document.querySelectorAll('.comment-btn');
+    popup(btns, movies);
+}
 
 export const addListeners = () => {
     const emptyLikes = document.querySelectorAll('.empty');
@@ -38,4 +39,13 @@ export const addListeners = () => {
     });
 }
 
-//addListeners();
+
+pop.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      pop.classList.add('inactive');
+      body.classList.remove('noflow');
+    }
+  });
+
+
+
