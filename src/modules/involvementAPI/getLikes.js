@@ -1,6 +1,5 @@
 const url = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/mjFvlMYeU34N8ufbOBkO/likes';
 
-
 const getLikes = async () => {
   const response = await fetch(`${url}`);
   return response.json();
