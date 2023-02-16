@@ -8,7 +8,7 @@ import { addListeners,addCommentButtonsLister } from './modules/eventListeners.j
 
 const displayUi = async () => {
     await displayMovies();
-    addListeners();
+    // addListeners();
     addCommentButtonsLister();
 }
 
