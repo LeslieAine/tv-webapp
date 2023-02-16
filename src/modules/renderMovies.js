@@ -1,9 +1,9 @@
 /* eslint-disable linebreak-style */
-const moviesList = document.querySelector(".movies");
+const moviesList = document.querySelector('.movies');
 
 const renderMovies = (item) => {
-  const list = document.createElement("li");
-  list.classList.add("list");
+  const list = document.createElement('li');
+  list.classList.add('list');
   list.innerHTML = `
     <p class="movie-id hidden">${item.id}</p>
     <img src="${item.image.medium}" alt="" srcset="" />
