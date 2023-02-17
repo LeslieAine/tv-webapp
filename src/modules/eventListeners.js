@@ -22,7 +22,6 @@ pop.addEventListener('keydown', (e) => {
 
 export default addCommentButtonsLister;
 
-
 document.addEventListener('DOMContentLoaded', async () => {
   addLikes();
   /* eslint-disable no-unused-vars */
@@ -49,4 +48,3 @@ export const addListeners = () => {
     });
   });
 };
-
