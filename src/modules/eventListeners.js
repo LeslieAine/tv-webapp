@@ -23,7 +23,7 @@ pop.addEventListener('keydown', (e) => {
 export default addCommentButtonsLister;
 
 document.addEventListener('DOMContentLoaded', async () => {
-  addLikes();
+  // addLikes();
   /* eslint-disable no-unused-vars */
   const movies = await getMovies();
   document.querySelector('.main-movies-counter').textContent = `(${moviesCounter()})`;
@@ -38,6 +38,7 @@ export const addListeners = () => {
       e.target.nextElementSibling.classList.remove('hidden');
       const movieId = e.target.closest('.list').querySelector('.movie-id').textContent;
       await addLike(movieId);
+      addLikes();
     });
   });
 
