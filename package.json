@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/LeslieAine/tv-webapp/issues"
   },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom-global"
+  },
   "homepage": "https://github.com/LeslieAine/tv-webapp#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
