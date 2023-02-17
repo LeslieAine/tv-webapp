@@ -75,7 +75,7 @@ This project was built using these technologies.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Here](https://LeslieAine.github.io/tv-webapp/dist/)
+- [Here](https://LeslieAine.github.io/tv-webapp/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
