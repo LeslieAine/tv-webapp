@@ -1,7 +1,7 @@
 import likesCounter from '../src/modules/counters/likesCounter.js';
 
 describe('likes Counter', () => {
-    let likesArray = [{},{},{}];
+  let likesArray = [{}, {}, {}];
   beforeEach(() => {
     document.body.innerHTML = '<p class="likes like">0</p>';
   });
