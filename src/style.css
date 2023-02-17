@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.likes-comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #d3d3d3;
+  padding: 0 2rem;
+  background-color: antiquewhite;
+}
+
+footer {
+  font-style: italic;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+li > a:hover {
+  font-size: large;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+}
+
+.movies li h3 {
+  text-align: center;
+}
+
+.movies li .flex {
+  margin: 15px;
+}
+
+.likes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like {
+  padding-right: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+.comment-btn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.comment-btn:hover {
+  background-color: #ddd;
+}
+
+.pop {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 500px black;
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  left: 5%;
+  right: 5%;
+  margin: auto;
+  z-index: 1;
+  background: white;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.movie-details {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.description * {
+  min-width: 50%;
+}
+
+.details h1 {
+  text-align: center;
+}
+
+.show-comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.comments {
+  background-color: #eee;
+  padding: 16px;
+  margin: 0 16px;
+  max-height: 70px;
+  word-break: break-word;
+  overflow-y: scroll;
+}
+
+.comments-heading {
+  margin: 0;
+}
+
+.com-count {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.com-item {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.myform * {
+  margin: 10px 0;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input,
+textarea {
+  line-height: 30px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #aaa;
+}
+
+.inactive {
+  display: none;
+}
+
+.noflow {
+  overflow-y: hidden;
+}
+
+.closeBtn {
+  align-self: flex-end;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  color: #f11;
+}
+
+.main-heading {
+  margin: 20px 0 0 20px;
+}
+
+.main-movies-counter {
+  font-weight: 400;
+  font-size: 1rem;
+}
