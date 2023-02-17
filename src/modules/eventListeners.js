@@ -2,13 +2,12 @@ import popup from './popup.js';
 import getMovies from './getMovies.js';
 import { addLike } from './involvementAPI/getLikes.js';
 import addLikes from './involvementAPI/addLikes.js';
-import getMovies from './getMovies.js';
 import moviesCounter from './counters/moviesCounter.js';
 
 const pop = document.querySelector('.pop');
 const body = document.querySelector('body');
 
-const addCommentButtonsLister = async () => {
+export const addCommentButtonsLister = async () => {
   const movies = await getMovies();
   const btns = document.querySelectorAll('.comment-btn');
   popup(btns, movies);
