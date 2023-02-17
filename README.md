@@ -131,12 +131,12 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **shasherazi**
+👤 **Leslie Aine**
 
 - GitHub: [@LeslieAine](https://github.com/LeslieAine)
 - LinkedIn: [@LeslieAine](https://linkedin.com/in/LeslieAine)
 
-👤 **Shakir Hussain**
+👤 **Tayyab Irfin**
 
 - GitHub: [@Tayyab](https://github.com/TayyabKM)
 
