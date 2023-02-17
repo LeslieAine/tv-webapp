@@ -1,16 +1,17 @@
-const likesCounter = document.querySelector('.likes');
+import likesCounter from '../src/modules/counters/likesCounter.js';
 
-describe('likesCounter', () => {
+describe('likes Counter', () => {
+    let likesArray = [{},{},{}];
   beforeEach(() => {
     document.body.innerHTML = '<p class="likes like">0</p>';
   });
 
   test('should return the correct number of likes', () => {
-    expect(likesCounter()).toBe(1);
+    expect(likesCounter(likesArray)).toBe(3);
   });
 
   test('should return 0 if there are no likes', () => {
-    document.body.innerHTML = '';
-    expect(likesCounter()).toBe(0);
+    likesArray = [];
+    expect(likesCounter(likesArray)).toBe(0);
   });
 });
