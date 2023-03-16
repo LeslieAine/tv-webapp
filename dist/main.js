@@ -45,11 +45,21 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n  <head>\\r\\n    <meta charset=\\\"UTF-8\\\" />\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\" />\\r\\n    <link\\r\\n      rel=\\\"stylesheet\\\"\\r\\n      href=\\\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\\\"\\r\\n      integrity=\\\"sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==\\\"\\r\\n      crossorigin=\\\"anonymous\\\"\\r\\n      referrerpolicy=\\\"no-referrer\\\"\\r\\n    />\\r\\n    <title>capstone project module 2</title>\\r\\n  </head>\\r\\n  <body>\\r\\n    <header>\\r\\n      <nav class=\\\"nav\\\">\\r\\n        <i class=\\\"fa fa-film\\\" style=\\\"font-size: 36px\\\"></i>\\r\\n        <ul>\\r\\n          <li>\\r\\n            <a href=\\\"#\\\">Home <i class=\\\"fa-solid fa-clapperboard\\\"></i></a>\\r\\n          </li>\\r\\n          <li>\\r\\n            <a href=\\\"#\\\">Comment <i class=\\\"fa-solid fa-comment\\\"></i></a>\\r\\n          </li>\\r\\n          <li>\\r\\n            <a href=\\\"#\\\">Like <i class=\\\"fa-solid fa-heart\\\"></i></a>\\r\\n          </li>\\r\\n        </ul>\\r\\n      </nav>\\r\\n    </header>\\r\\n    <section class=\\\"main\\\">\\r\\n      <section id=\\\"pop-up\\\" class=\\\"pop inactive\\\" tabindex=\\\"0\\\"></section>\\r\\n      <h1 class=\\\"main-heading\\\">Movies <span class=\\\"main-movies-counter\\\"></span></h1>\\r\\n      <ul class=\\\"movies\\\" id=\\\"movies\\\"></ul>\\r\\n    </section>\\r\\n    <footer>\\r\\n      <i class=\\\"fa fa-film\\\" style=\\\"font-size: 36px\\\"></i>\\r\\n      <p>Made by Leslie Aine & Tayyab Irfan</p>\\r\\n      <span></span>\\r\\n    </footer>\\r\\n  </body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://tv-webapp/./src/index.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./style.css */ \"./src/style.css?1315\"), __webpack_require__.b);\nvar ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./index.js */ \"./src/index.js?dfde\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);\nvar code = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n  <head>\\r\\n    <meta charset=\\\"UTF-8\\\" />\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\" />\\r\\n    <link\\r\\n      rel=\\\"stylesheet\\\"\\r\\n      href=\\\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css\\\"\\r\\n      integrity=\\\"sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==\\\"\\r\\n      crossorigin=\\\"anonymous\\\"\\r\\n      referrerpolicy=\\\"no-referrer\\\"\\r\\n    />\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\" />\\r\\n    <title>capstone project module 2</title>\\r\\n  </head>\\r\\n  <body>\\r\\n    <header>\\r\\n      <nav class=\\\"nav\\\">\\r\\n        <i class=\\\"fa fa-film\\\" style=\\\"font-size: 36px\\\"></i>\\r\\n        <ul>\\r\\n          <li>\\r\\n            <a href=\\\"#\\\">Home <i class=\\\"fa-solid fa-clapperboard\\\"></i></a>\\r\\n          </li>\\r\\n          <li>\\r\\n            <a href=\\\"#\\\">Comment <i class=\\\"fa-solid fa-comment\\\"></i></a>\\r\\n          </li>\\r\\n          <li>\\r\\n            <a href=\\\"#\\\">Like <i class=\\\"fa-solid fa-heart\\\"></i></a>\\r\\n          </li>\\r\\n        </ul>\\r\\n      </nav>\\r\\n    </header>\\r\\n    <section class=\\\"main\\\">\\r\\n      <section id=\\\"pop-up\\\" class=\\\"pop inactive\\\" tabindex=\\\"0\\\"></section>\\r\\n      <h1 class=\\\"main-heading\\\">Movies <span class=\\\"main-movies-counter\\\"></span></h1>\\r\\n      <ul class=\\\"movies\\\" id=\\\"movies\\\"></ul>\\r\\n    </section>\\r\\n    <footer>\\r\\n      <i class=\\\"fa fa-film\\\" style=\\\"font-size: 36px\\\"></i>\\r\\n      <p>Made by Leslie Aine & Tayyab Irfan</p>\\r\\n      <span></span>\\r\\n    </footer>\\r\\n    <\" + \"script defer type=\\\"module\\\" src=\\\"\" + ___HTML_LOADER_REPLACEMENT_1___ + \"\\\"><\" + \"/script>\\r\\n  </body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://tv-webapp/./src/index.html?");
 
 /***/ }),
 
-/***/ "./src/style.css":
+/***/ "./node_modules/html-loader/dist/runtime/getUrl.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/html-loader/dist/runtime/getUrl.js ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = String(url.__esModule ? url.default : url);\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  }\n\n  if (options.maybeNeedQuotes && /[\\t\\n\\f\\r \"'=<>`]/.test(url)) {\n    return \"\\\"\".concat(url, \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://tv-webapp/./node_modules/html-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
+/***/ "./src/style.css?7163":
 /*!***********************!*\
   !*** ./src/style.css ***!
   \***********************/
@@ -119,13 +129,13 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/index.js":
+/***/ "./src/index.js?b635":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ \"./src/index.html\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_renderMovies_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/renderMovies.js */ \"./src/modules/renderMovies.js\");\n/* harmony import */ var _modules_displayMovies_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/displayMovies.js */ \"./src/modules/displayMovies.js\");\n/* harmony import */ var _modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/eventListeners.js */ \"./src/modules/eventListeners.js\");\n/* harmony import */ var _modules_counters_moviesCounter_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/counters/moviesCounter.js */ \"./src/modules/counters/moviesCounter.js\");\n\n\n\n\n\n\n\nconst displayUi = async () => {\n  await (0,_modules_displayMovies_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n  (0,_modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_4__.addListeners)();\n  (0,_modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_4__.addCommentButtonsLister)();\n};\n\ndisplayUi();\n\n//# sourceURL=webpack://tv-webapp/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.html */ \"./src/index.html\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css?7163\");\n/* harmony import */ var _modules_renderMovies_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/renderMovies.js */ \"./src/modules/renderMovies.js\");\n/* harmony import */ var _modules_displayMovies_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/displayMovies.js */ \"./src/modules/displayMovies.js\");\n/* harmony import */ var _modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/eventListeners.js */ \"./src/modules/eventListeners.js\");\n/* harmony import */ var _modules_counters_moviesCounter_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/counters/moviesCounter.js */ \"./src/modules/counters/moviesCounter.js\");\n\n\n\n\n\n\n\nconst displayUi = async () => {\n  await (0,_modules_displayMovies_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n  (0,_modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_4__.addListeners)();\n  (0,_modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_4__.addCommentButtonsLister)();\n};\n\ndisplayUi();\n\n//# sourceURL=webpack://tv-webapp/./src/index.js?");
 
 /***/ }),
 
@@ -237,11 +247,31 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* eslint-disable linebreak-style */\r\nconst moviesList = document.querySelector('.movies');\r\n\r\nconst renderMovies = (item) => {\r\n  const list = document.createElement('li');\r\n  list.classList.add('list');\r\n  list.innerHTML = `\r\n    <p class=\"movie-id hidden\">${item.id}</p>\r\n    <img src=\"${item.image.medium}\" alt=\"\" srcset=\"\" />\r\n    <div>\r\n        <h3>${item.name}</h3>\r\n        <div class=\"likes-comments\">\r\n            <div class = \"likes-container\">\r\n                <i class=\"fa-regular fa-heart empty like-btn like\"></i>\r\n                <i class=\"fa-solid fa-heart filled like-btn like\"></i>\r\n                <p class=\"likes like\">0</p>  \r\n            </div>  \r\n            <button class=\"comment-btn\">\r\n              <a href=\"#pop-up\">\r\n              Comment <i class=\"fa-solid fa-comments\"></i>\r\n              </a>  \r\n            </button>\r\n        </div>\r\n    </div>\r\n    `;\r\n\r\n  moviesList.appendChild(list);\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderMovies);\r\n\n\n//# sourceURL=webpack://tv-webapp/./src/modules/renderMovies.js?");
 
+/***/ }),
+
+/***/ "./src/style.css?1315":
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"57011448dc08b9372b5e.css\";\n\n//# sourceURL=webpack://tv-webapp/./src/style.css?");
+
+/***/ }),
+
+/***/ "./src/index.js?dfde":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a333776ae5d34777bec0.js\";\n\n//# sourceURL=webpack://tv-webapp/./src/index.js?");
+
 /***/ })
 
 },
 /******/ __webpack_require__ => { // webpackRuntimeModules
 /******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
+/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js?b635"));
 /******/ }
 ]);
